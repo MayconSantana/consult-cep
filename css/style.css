@@ -71,7 +71,7 @@ main {
     opacity: 1;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 535px) {
     main {
         width: 90%;
     }
