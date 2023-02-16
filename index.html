@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulta de CEP simples e prática, consumindo da API do VIA CEP .">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <main>
+        <div class="main">
+            <h1>Consulta de CEP</h1>
+            
+            <div class="input-group">
+                <input type="number" id="cepInput" placeholder="Digite o CEP aqui" autofocus>
+                <button id="consult">Consultar</button>
+            </div>
+        </div>
+
+        <div class="result hide">
+            <div class="result-group">
+                <h2>CEP: </h2><span id="cep"></span>
+            </div>
+
+            <div class="result-group">
+                <h3>Cidade: </h3><span id="cidade"></span>
+            </div>
+
+            <div class="result-group">
+                <h3>Estado: </h3><span id="estado"></span>
+            </div>
+
+            <div class="result-group">
+                <h3>Bairro: </h3><span id="bairro"></span>
+            </div>
+
+            <div class="result-group">
+                <h3>Logradouro: </h3><span id="logradouro"></span>
+            </div>
+
+            <div class="result-group">
+                <h3>DDD: </h3><span id="ddd"></span>
+            </div>
+
+            <button id="back">Voltar</button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
