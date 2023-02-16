@@ -110,6 +110,10 @@ main {
 .result-group:first-child {
     color: #12b8fa;
     font-size: 2em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .result > button {
