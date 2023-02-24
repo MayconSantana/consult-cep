@@ -14,14 +14,14 @@ body {
     display: grid;
     place-items: center;
 
-    background: #041325;
+    background: #03070c;
     color: #eee;
 }
 
 main {
-    background: #0b2458;
+    background: #00238d;
     padding: 4rem 3rem;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .main {
@@ -60,15 +60,17 @@ main {
     align-self: center;
     padding: 10px 15px;
     border: none;
-    background: #12b8fa;
+    background: #fff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
-    opacity: .8;
+    color: #000;
+    transition: .3s all;
 }
 
 .input-group > button:hover {
-    opacity: 1;
+    background: #000608;
+    color: #fff;
 }
 
 @media (max-width: 535px) {
@@ -108,7 +110,7 @@ main {
 }
 
 .result-group:first-child {
-    color: #12b8fa;
+    color: #fcfcfc;
     font-size: 2em;
     
     display: flex;
